@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  align-items: row;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(18, 29, 51);
+  padding: 40px;
+}
+
+header img {
+  width: 40px;
+}
+
+.headerNav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 20px;
+}
+
+.tituloHeader {
+  padding: 30px;
+  font-size: 40px;
+  color: white;
+}
+
+.tituloMain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-decoration: underline;
+}
+
+#VehiculosJs {
+  padding: 40px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgb(18, 29, 51);
+  padding: 45px;
+}
+footer .itemTextosFooter {
+  color: white;
+  font-size: 20px;
+}
+
+footer .itemRedes img {
+  width: 70px;
+  padding: 5px;
+}
+
+h1 {
+  padding: 30px;
+}
